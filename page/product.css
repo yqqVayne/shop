@@ -1,0 +1,34 @@
+.proImg{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+.proInfo{
+    float: left;
+    width: 40%;
+}
+.proTransport{
+    width: 80%;
+    float: left;
+}
+.proInfo div{
+    margin: 30px;
+}
+.proName{
+    font-size: 30px;
+}
+.proContent{
+    font-size: 15px;
+    color: gray;
+}
+
+.proPrice{
+    font-size: 20px;
+}
+.proBtn button{
+    background: antiquewhite;
+    border: 1px solid;
+    line-height: 40px;
+    font-size: 20px;
+    width: 80%;
+}

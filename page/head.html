@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Menu</title>
+    <link rel= "stylesheet" href = stylesheet.css type="text/css" />
+</head>
+<body>
+<div>
+<div class="searchBar">
+<input id="search" class="search" ></input>
+<img class="searchImg" src="imgs/search.png" style="width: 30px;"
+     onclick="javascript:top.location.href='shop.html?proName='+document.getElementById('search').value;">
+</div>
+<span class="FAQ" onclick="javascript:top.location.href='FAQ.html'">FAQ</span>
+<div class="logo" onclick="javascript:top.location.href='home.html'">
+<img src="imgs/logo.png" style="width: 40px;">Daniel Brown
+</div>
+</div>
+
+<!--给ul标签改个名字-->
+<ul class = "mune">
+    <li id="shop">
+        <a href="#" onclick="javascript:top.location.href='shop.html'">Shop</a>
+    </li>
+    <li id="aboutUs">
+        <a href="#" onclick="javascript:top.location.href='aboutUs.html'">About Us</a>
+    </li>
+    <li id="contactUs">
+        <a href="#" onclick="javascript:top.location.href='contactUs.html'">Contact Us</a>
+    </li>
+    <li id="recipes">
+        <a href="#" onclick="javascript:top.location.href='recipes.html'">Recipes</a>
+    </li>
+    <li id="gallery">
+        <a href="#" onclick="javascript:top.location.href='gallery.html'">Gallery</a>
+    </li>
+    <li id="shoppingCart">
+        <a href="#" onclick="javascript:top.location.href='shoppingCart.html'">Shopping Cart</a>
+    </li>
+</ul>
+
+</body>
+</html>

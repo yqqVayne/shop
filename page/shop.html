@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel= "stylesheet" href ="shop.css" type="text/css" />
+    <script type="text/javascript" src="shop.js"></script>
+</head>
+<script type="text/javascript">
+    window.onload = function (){
+        loadShop();
+    }
+</script>
+<body>
+<iframe src="head.html" width="100%" scrolling="no" style="border: medium none;height: 160px;">
+</iframe>
+<div class="shop_head">
+<h1>Shop</h1>
+<span id="All" onclick="javascript:top.location.href='shop.html'">All</span>
+<span id="cheongsam" onclick="javascript:top.location.href='shop.html?category=cheongsam'">cheongsam</span>
+<span id="chinesetunicsuit" onclick="javascript:top.location.href='shop.html?category=chinesetunicsuit'">Chinese tunic suit</span>
+<span id="hanfu" onclick="javascript:top.location.href='shop.html?category=hanfu'">Han fu</span>
+</div>
+    <div id="productList">
+    </div>
+<iframe src="followUs.html" width="100%" scrolling="no" style="border: medium none;height: 50px;">
+</iframe>
+</body>
+</html>

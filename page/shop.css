@@ -1,0 +1,43 @@
+.product {
+    width: 20%;
+    float: left;
+    margin: 10px;
+}
+.product .proImg img{
+    width: 100%;
+    float: left;
+}
+
+.proContent{
+}
+.shop_head{
+    width: 100%;
+    height: 100px;
+}
+.shop_head h1{
+   float: left;
+
+}
+.shop_head span{
+    float: left;
+    line-height: 100px;
+    width: 150px;
+    text-align: center;
+}
+.searchInput{
+    float: right;
+    line-height: 0px;
+    height: 30px;
+    margin: unset;
+    width: 250px;
+    margin-top: 30px;
+}
+.searchBtn{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 35px;
+    border: none;
+    background: cornflowerblue;
+    color: white;
+}

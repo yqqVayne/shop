@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <link rel= "stylesheet" href = product.css type="text/css" />
+    <script type="text/javascript" src="shop.js"></script>
+</head>
+<script type="text/javascript">
+    window.onload = function (){
+        loadProduct();
+    }
+</script>
+<body>
+<iframe src="head.html" width="100%" scrolling="no" style="border: medium none;height: 160px;">
+</iframe>
+<div class="product">
+    <div id="proInfo">
+    <img class="proImg" src="imgs/product-01.jpg">
+    <div class="proInfo">
+        <div class="proName">
+            Esprit Ruffle Shirt
+        </div>
+        <div class="proContent">
+            Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
+        </div>
+        <div class="proPrice">$16.6</div>
+        <div class="proSize">size:<input id="proSize" type="number" value="0"></div>
+        <div class="proBtn"><button onclick="addToCart(1,document.getElementById('proSize').value)">Add to Cart</button></div>
+    </div>
+    </div>
+    <div class="proTransport">
+        <h2>1.Shipping policies</h2>
+        <p>1.1If there is no one at the address given who is competent to accept delivery of the Goods,
+            you will be asked to contact our Client Services in order to arrange an alternative delivery
+            date to collect the Goods.</p>
+        <p>1.2You may use our Gift Service to arrange for Goods to be delivered to a third party of your
+            choice, provided always that the delivery address is in the Australia.<p></p>
+        <p>1.3If, at the time of delivery of delivered Goods, the packaging for your Goods is damaged,
+            you are required to open the package in the presence of the carrier in order to verify the
+            condition of the Goods. In the event of damage to delivered Goods, you should note the details
+            on the delivery note and contact the Client Services team.</p>
+        <p>1.4No delivery will take place unless payment for the Goods has been received.
+            Every effort will be made to deliver the Goods as soon as possible after your order has
+            been accepted. Any delivery date or time specified by us is a best estimate only and we
+            will not be responsible for any loss or damage suffered by you through any reasonable or
+            unavoidable delay in delivery. We will aim to deliver the Goods (other than Personalised
+            Goods) within 30 days and Personalised Goods within 8 weeks.</p>
+        <h2>2.Return and refund policies</h2>
+        <p>2.1Seven-day no-questions-asked return.</p>
+        <p>2.2The seven-day period starts from 0:00 on the next day when the logistics shows the receipt
+            of the goods, and the full 168 hours is 7 days.</p>
+        <p>2.3You must return the product in its original packaging (e.g. box, cotton pouch, product loss
+            prevention label, etc.) and return the product in a undamaged, sellable condition with all
+            relevant accessories, instructions, labels, giveaways (if any) and sales documents.</p>
+
+    </div>
+</div>
+<iframe src="followUs.html" width="100%" scrolling="no" style="border: medium none;height: 50px;">
+</iframe>
+</body>
+</html>

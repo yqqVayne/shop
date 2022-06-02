@@ -1,0 +1,73 @@
+.mune{
+    list-style: none;
+
+}
+.mune li{
+
+    width : 13%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    margin: 0px 10px;
+    color: gray;
+    font-size: 16px;
+
+
+}
+.mune li:hover{
+    font-size: 17px;
+
+}
+.div1{
+    width : 100px;
+    height: 40px;
+    background-color: rgb(131, 214, 131);
+    position: absolute;
+    top:92px;
+    display: none;
+}
+
+.mune li:hover div{
+    display: block;
+}
+.mune li a:link {
+    text-decoration:none;
+    color: black;
+}
+.mune li a:visited {
+    text-decoration:none;
+    color: black;
+}
+.searchImg{
+    width: 30px;
+    float: left;
+}
+.logo{
+    width: 90%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+}
+ul{
+    margin: 40px;
+}
+.FAQ{
+    margin-left: 30px;
+    float: left;
+}
+
+.search{
+    float: left;
+    border: none;
+    background: none;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.searchBar{
+    border: 1px solid;
+    height: fit-content;
+    float: left;
+    border-radius: 20px;
+}
